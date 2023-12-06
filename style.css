@@ -1227,7 +1227,7 @@ a .logo {
 }
 
 /* Media query for mobile devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     .gelombangimg{
         top: 400px;
         width: 768px;
@@ -1344,14 +1344,14 @@ a .logo {
         top: 400px;
     }
     
+
     
     .divnavbar{
        
-        width: 768px;
         top: 20px;
-       
+        width: 768px;
         justify-content: space-around;
-        margin-left: px;
+       
         padding: 0px 0px;
     }
     
@@ -1370,9 +1370,13 @@ a .logo {
     }
     .mobile-menu-icon {
         display: block;
+        margin-left: 400px;
         
     }
 
+    .logo{
+        left: 20px;
+    }
     .frame-information{
         max-width: 768px;
         justify-content: space-around;
@@ -1394,12 +1398,24 @@ a .logo {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
     body {
-        max-width: 1200px;
+        max-width: 1500px;
         /* Adjust maximum width for smaller screens */
     }
+
+    .gradient-box{
+        width: 1500px;
+    }
+    .gelombangbawah{
+        width: 1500px;
+    }
+   
 }
+
+
+
+
 
 
 /* Additional media queries for even smaller screens if needed */
@@ -1505,3 +1521,6 @@ a .logo {
         margin-right: auto;
     }
 }
+
+
+
