@@ -19,6 +19,7 @@ a {
     text-decoration: none;
 }
 
+.menu a:hover,
 .menu1 a:hover,
 .menu3 a:hover,
 .menu4 a:hover,
@@ -129,6 +130,7 @@ a .logo {
 /* IN USE */
 
  .menu1,
+ .menu,
  .menu3,
  .menu4,
  .menu5,
@@ -1235,6 +1237,10 @@ a .logo {
         transform-origin: top center;
         animation: translateX 300ms 9ms ease-in-out forwards;
       }
+      .menu{
+        transform-origin: top center;
+        animation: translateX 300ms 9ms ease-in-out forwards;
+      }
     .menu1 {
         transform-origin: top center;
         animation: translateX 300ms 60ms ease-in-out forwards;
@@ -1341,6 +1347,7 @@ a .logo {
       }
       
       .menu-items .menu1,
+      .menu-items .menu,
       .menu-items .menu3,
       .menu-items .menu4,
       .menu-items .menu5,
@@ -1384,6 +1391,7 @@ a .logo {
       }
 
       .menu-items .menu1:after,
+      .menu-items .menu:after,
       .menu-items .menu3:after,
       .menu-items .menu4:after,
       .menu-items .menu5:after,
@@ -1405,11 +1413,13 @@ a .logo {
         transition: transform 250ms ease-in-out;
       }
       .menu-items .menu1:hover:after,
+      .menu-items .menu:hover:after,
       .menu-items .menu3:hover:after,
       .menu-items .menu4:hover:after,
       .menu-items .menu5:hover:after,
       .menu-items .menu6:hover:after { transform: scaleX(1); }
       .menu1:after,
+      .menu:after,
       .menu3:after,
       .menu4:after,
       .menu5:after,
@@ -1701,6 +1711,7 @@ a .logo {
       }
       
       .menu-items .menu1,
+      .menu-items .menu,
       .menu-items .menu2,
       .menu-items .menu3,
       .menu-items .menu4,
