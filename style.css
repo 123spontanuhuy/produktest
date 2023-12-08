@@ -1198,9 +1198,9 @@ a .logo {
   }
   
   .bar {
-    width: 24px;
+    width: 50px;
     margin-bottom: 5px;
-    height: 4px;
+    height: 40px;
     background-color: #000;
     transition: transform 0.3s ease-in-out;
   }
@@ -1216,6 +1216,7 @@ a .logo {
 .mobile-menu-icon {
     display: none;
     cursor: pointer;
+
 }
 
 .swipe{
@@ -1334,7 +1335,8 @@ a .logo {
         position: absolute;
         float: right;
         background-color: rgba(255, 255, 255, 0.9);
-        width: 300px;
+        width: 400px;
+        height: 500px;
         max-height: 0;
         overflow: hidden;
         transition: max-height 0.3s ease-in-out;
@@ -1355,15 +1357,15 @@ a .logo {
         text-decoration: none;
         color: #000;
         margin-right: 0px;
-        margin-top: 10px;
+        margin-top: 20px;
         font-family: "Inter-Medium", sans-serif;
         font-weight: 500;
         
         
-        font-size: large;
+        font-size: 30px;
         border-radius: 10px;
     
-        width: 200px;
+        width: 300px;
         padding: 10px 0;
         text-align: left;
         margin-left: 20px;
@@ -1374,12 +1376,12 @@ a .logo {
         text-decoration: none;
         color: #000;
         margin-right: 0px;
-        margin-top: 10px;
+        margin-top: 20px;
         font-family: "Inter-Medium", sans-serif;
         font-weight: 500;
         
         
-        font-size: large;
+        font-size: 30px;
         border-radius: 10px;
     
         width: 200px;
@@ -1450,7 +1452,7 @@ a .logo {
     
     .menu-items.active {
         display: flex;
-        max-height: 500px; /* Set the maximum height as needed */
+        max-height: 600px; /* Set the maximum height as needed */
         transition: max-height 1s ease-in-out;
     }
     
@@ -1478,12 +1480,14 @@ a .logo {
     }
     
     
-    
+   
     
     .bar {
-        width: 24px;
+        width: 40px;
+        margin-top: 0px;
         margin-bottom: 5px;
-        height: 4px;
+        left: 40px;
+        height: 7px;
         background-color: #000;
         transition: transform 0.3s ease-in-out;
     }
@@ -1702,7 +1706,7 @@ a .logo {
         border-color: #000;
         top: 40px;
         right: 0;
-
+        height: 600px;
         justify-content: center;
         align-items: center;
         z-index: 999;
