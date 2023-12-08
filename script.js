@@ -1,4 +1,16 @@
-    // KOTAK 1
+function toggleMenu() {
+    var mobileMenuIcon = document.querySelector('.mobile-menu-icon');
+    var menuItems = document.querySelector('.menu-items');
+    
+    mobileMenuIcon.classList.toggle('active');
+    menuItems.classList.toggle('active');
+}
+
+
+
+
+
+// KOTAK 1
 
 
     document.addEventListener("DOMContentLoaded", function() {
@@ -286,18 +298,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-function toggleMenu() {
-    var navbar = document.getElementById("navbar");
-    var cobagratis = document.getElementById("div-cobagratis")
-    if (navbar.style.display === "block") {
-        navbar.style.display = "none";
-        cobagratis.style.display = "none";
 
-    } else {
-        navbar.style.display = "block";
-        cobagratis.style.display = "block";
-    }
-}
 
 
 
